@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    height: 70%;
+}
+
+.logo{
+    width: 40%;
+    margin: auto;
+}
+
+.logo > img{
+    width: 100%;
+}
+
+.new-task{
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+}
+
+input{
+    width: 350px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+button{
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 0px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.tasks-container{
+    width: 40%;
+    margin: auto;
+    background-color: lightgrey;
+    height: 100%;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.tasks-container ul{
+    list-style: none;
+}
+
+.task{
+    width: 100%;
+    font-size: 25px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.task:hover{
+    background: #fff;
+}
+
+.task i{
+    float: right;
+    cursor: pointer;
+}
+
+.done{
+    text-decoration: line-through;
+}
